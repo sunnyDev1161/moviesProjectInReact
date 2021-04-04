@@ -1,0 +1,48 @@
+.search-movie-container {
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 230px;
+}
+
+.poster {
+  padding: 5px;
+}
+tr {
+  animation-name: moveFromTop;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+.poster img {
+  border-radius: 4px;
+}
+
+.movie-name span {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.search-movie-container tr {
+  transition: 0.5s;
+}
+
+.search-movie-container tr:hover {
+  background: green;
+}
+
+@keyframes moveFromTop {
+  0% {
+    opacity: 0;
+    transform: translateX(-100);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

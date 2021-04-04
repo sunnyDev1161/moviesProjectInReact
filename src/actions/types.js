@@ -1,0 +1,2 @@
+export const INDEX_MOVIES = "INDEX_MOVIES";
+export const BROWSE_MOVIES = "BROWSE_MOVIES";

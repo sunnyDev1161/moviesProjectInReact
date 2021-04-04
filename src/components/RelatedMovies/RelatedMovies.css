@@ -1,0 +1,6 @@
+.related-movies a img {
+  width: 33.33%;
+  height: 170px;
+  float: left;
+  margin: 10px 0 10px 10px;
+}

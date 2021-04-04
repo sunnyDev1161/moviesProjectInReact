@@ -1,0 +1,11 @@
+.comments-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.comments{
+    width: 45%;
+    height: 90vh;
+    margin-top: 40px
+
+}
